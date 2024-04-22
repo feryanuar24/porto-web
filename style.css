@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  background: linear-gradient(135deg, #ff6b6b, #3a1c71);
+  color: #ffffff;
+  padding: 50px 300px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture-header {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  transition: all 3s ease;
+}
+
+.picture-header img {
+  width: 250%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  margin-left: -130px;
+}
+
+.picture-header:hover {
+  transform: translateX(-20px);
+}
+
+.text-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.role {
+  font-size: 40px;
+}
+
+.download {
+  font-size: large;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.download:hover {
+  transform: scale(110%);
+}
+
+.hire {
+  font-size: large;
+  font-weight: bold;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.hire:hover {
+  transform: scale(110%);
+}
+
+.portofolio {
+  padding: 100px;
+  color: #231f20;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+.html-container {
+  background-color: #dcdde1;
+  width: 100%;
+  height: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.html-fill {
+  width: 90%;
+  background-color: #e74c3c;
+  height: 20px;
+}
+
+.css-container {
+  background-color: #dcdde1;
+  width: 100%;
+  height: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.css-fill {
+  width: 80%;
+  background-color: #34495e;
+  height: 20px;
+}
+
+.js-container {
+  background-color: #dcdde1;
+  width: 100%;
+  height: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.js-fill {
+  width: 85%;
+  background-color: #e67e22;
+  height: 20px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+article p {
+  color: #191919;
+}
+
+li p {
+  color: #191919;
+}
+
+.mark {
+  color: yellowgreen;
+}
+
+footer {
+  background-color: #34495e;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
